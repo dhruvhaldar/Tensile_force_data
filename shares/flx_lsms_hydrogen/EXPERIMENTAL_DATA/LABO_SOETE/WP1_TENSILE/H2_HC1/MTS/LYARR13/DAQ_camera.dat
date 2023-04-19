@@ -1,0 +1,1766 @@
+MTS793|MPT|ENU|1|2|.|/|:|1|0|0|A
+
+Data Acquisition						Time:	0.022460938	s	1/27/2022 10:03:50 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+0.022460938	0.37515107	10.000297	0.0031513933	-0.024037965
+
+Data Acquisition						Time:	9.9482422	s	1/27/2022 10:04:00 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+9.9482422	0.59517324	10.024543	0.0032359217	-0.023188761
+
+Data Acquisition						Time:	19.87793	s	1/27/2022 10:04:10 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+19.87793	0.84087372	10.046266	0.0034044809	-0.022229785
+
+Data Acquisition						Time:	29.808594	s	1/27/2022 10:04:20 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+29.808594	1.1382036	10.065963	0.0032298816	-0.021431349
+
+Data Acquisition						Time:	39.738281	s	1/27/2022 10:04:30 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+39.738281	1.5649508	10.087766	0.0030358217	-0.019546259
+
+Data Acquisition						Time:	49.671875	s	1/27/2022 10:04:40 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+49.670898	2.0728378	10.112142	0.0030094001	-0.018120827
+
+Data Acquisition						Time:	59.601563	s	1/27/2022 10:04:50 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+59.601563	2.659533	10.136003	0.00302498	-0.01605824
+
+Data Acquisition						Time:	69.53125	s	1/27/2022 10:04:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+69.53125	3.239738	10.158294	0.0031715711	-0.014079778
+
+Data Acquisition						Time:	79.460938	s	1/27/2022 10:05:09 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+79.460938	3.7424495	10.176975	0.0030220095	-0.012619793
+
+Data Acquisition						Time:	89.390625	s	1/27/2022 10:05:19 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+89.390625	4.4893088	10.199952	0.0026817017	-0.010309088
+
+Data Acquisition						Time:	99.320313	s	1/27/2022 10:05:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+99.320313	5.3132386	10.223796	0.0028755558	-0.0080922516
+
+Data Acquisition						Time:	109.25	s	1/27/2022 10:05:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+109.25	6.1783504	10.248055	0.0031143343	-0.0053749657
+
+Data Acquisition						Time:	119.17969	s	1/27/2022 10:05:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+119.17969	6.9844909	10.26919	0.0030676604	-0.0029164464
+
+Data Acquisition						Time:	129.10938	s	1/27/2022 10:05:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+129.10938	7.758028	10.288301	0.0028062966	-0.00024677324
+
+Data Acquisition						Time:	139.04004	s	1/27/2022 10:06:09 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+139.04004	8.8298817	10.311665	0.0026541543	0.0026807364
+
+Data Acquisition						Time:	148.96875	s	1/27/2022 10:06:19 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+148.96875	9.8731928	10.335306	0.0027075727	0.0060899584
+
+Data Acquisition						Time:	158.89844	s	1/27/2022 10:06:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+158.89844	10.982875	10.360226	0.0024542331	0.0097666699
+
+Data Acquisition						Time:	168.83105	s	1/27/2022 10:06:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+168.83105	11.968406	10.38058	0.0026228842	0.013355385
+
+Data Acquisition						Time:	178.76172	s	1/27/2022 10:06:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+178.76172	12.891035	10.399919	0.0025230744	0.016980818
+
+Data Acquisition						Time:	188.69141	s	1/27/2022 10:06:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+188.69141	14.072137	10.424274	0.0025515324	0.021617133
+
+Data Acquisition						Time:	198.62012	s	1/27/2022 10:07:09 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+198.61914	15.228965	10.447207	0.0024974055	0.026418781
+
+Data Acquisition						Time:	208.55176	s	1/27/2022 10:07:19 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+208.55176	16.317932	10.471143	0.0022619171	0.030955371
+
+Data Acquisition						Time:	218.48047	s	1/27/2022 10:07:28 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+218.48047	17.132586	10.489038	0.0022377938	0.036219947
+
+Data Acquisition						Time:	228.41016	s	1/27/2022 10:07:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+228.41016	18.207365	10.512674	0.0025014216	0.043902643
+
+Data Acquisition						Time:	238.33984	s	1/27/2022 10:07:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+238.33984	18.994663	10.536199	0.0020723117	0.054186974
+
+Data Acquisition						Time:	248.27148	s	1/27/2022 10:07:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+248.27051	19.662193	10.560796	0.0019959137	0.067235641
+
+Data Acquisition						Time:	258.19922	s	1/27/2022 10:08:08 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+258.19922	19.919355	10.581179	0.0024397559	0.082634173
+
+Data Acquisition						Time:	268.12891	s	1/27/2022 10:08:18 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+268.12891	20.045492	10.601594	0.0021365399	0.10043998
+
+Data Acquisition						Time:	278.05859	s	1/27/2022 10:08:28 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+278.05859	20.423927	10.624823	0.0019648327	0.12001217
+
+Data Acquisition						Time:	287.98828	s	1/27/2022 10:08:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+287.98828	20.661531	10.649519	0.0020753397	0.13831256
+
+Data Acquisition						Time:	297.91797	s	1/27/2022 10:08:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+297.91797	20.810205	10.671762	0.0022882442	0.15799773
+
+Data Acquisition						Time:	307.84668	s	1/27/2022 10:08:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+307.84668	20.753023	10.690263	0.0021917578	0.177264
+
+Data Acquisition						Time:	317.77734	s	1/27/2022 10:09:08 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+317.77734	20.928972	10.713593	0.0019320128	0.19917938
+
+Data Acquisition						Time:	327.70898	s	1/27/2022 10:09:18 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+327.70898	21.041912	10.737418	0.0020817597	0.220348
+
+Data Acquisition						Time:	337.6377	s	1/27/2022 10:09:28 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+337.6377	21.200623	10.761341	0.0020146233	0.24098934
+
+Data Acquisition						Time:	347.56641	s	1/27/2022 10:09:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+347.56641	21.028397	10.780045	0.0018330438	0.2619915
+
+Data Acquisition						Time:	357.49609	s	1/27/2022 10:09:47 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+357.49609	21.061665	10.803616	0.002186446	0.28517482
+
+Data Acquisition						Time:	367.42578	s	1/27/2022 10:09:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+367.42578	21.132488	10.826756	0.0018811889	0.30756894
+
+Data Acquisition						Time:	377.35547	s	1/27/2022 10:10:07 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+377.35547	21.230852	10.851372	0.001739632	0.3292439
+
+Data Acquisition						Time:	387.28516	s	1/27/2022 10:10:17 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+387.28516	21.026686	10.869656	0.0018074682	0.3512511
+
+Data Acquisition						Time:	397.21875	s	1/27/2022 10:10:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+397.21777	20.93659	10.892247	0.0018615072	0.37482661
+
+Data Acquisition						Time:	407.14844	s	1/27/2022 10:10:37 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+407.14844	21.024242	10.916192	0.0018565076	0.39761001
+
+Data Acquisition						Time:	417.07813	s	1/27/2022 10:10:47 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+417.07813	21.034393	10.927643	0.0017081137	0.42510492
+
+Data Acquisition						Time:	427.00781	s	1/27/2022 10:10:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+427.00781	20.995489	10.962334	0.001584816	0.44364309
+
+Data Acquisition						Time:	436.9375	s	1/27/2022 10:11:07 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+436.9375	20.773499	10.981078	0.0017873368	0.46561015
+
+Data Acquisition						Time:	446.86621	s	1/27/2022 10:11:17 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+446.86621	20.788557	11.005196	0.0014686203	0.48971653
+
+Data Acquisition						Time:	456.79688	s	1/27/2022 10:11:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+456.79688	20.799063	11.028269	0.0016479992	0.51331425
+
+Data Acquisition						Time:	466.72656	s	1/27/2022 10:11:37 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+466.72656	20.804701	11.051796	0.0013868723	0.53522098
+
+Data Acquisition						Time:	476.65625	s	1/27/2022 10:11:47 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+476.65625	20.573416	11.071012	0.0013163831	0.55782092
+
+Data Acquisition						Time:	486.58594	s	1/27/2022 10:11:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+486.58594	20.481894	11.093211	0.001412962	0.58127636
+
+Data Acquisition						Time:	496.51563	s	1/27/2022 10:12:06 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+496.51563	20.484396	11.117313	0.0012648397	0.60559791
+
+Data Acquisition						Time:	506.44922	s	1/27/2022 10:12:16 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+506.44824	20.496538	11.141048	0.0011230096	0.62846154
+
+Data Acquisition						Time:	516.37891	s	1/27/2022 10:12:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+516.37891	20.479057	11.163058	0.0010106653	0.65137422
+
+Data Acquisition						Time:	526.30859	s	1/27/2022 10:12:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+526.30859	20.173046	11.181901	0.0014491543	0.67493701
+
+Data Acquisition						Time:	536.23828	s	1/27/2022 10:12:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+536.23828	20.109932	11.205213	0.0010882951	0.69841456
+
+Data Acquisition						Time:	546.16797	s	1/27/2022 10:12:56 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+546.16797	20.104084	11.228753	0.0013667153	0.7236827
+
+Data Acquisition						Time:	556.09961	s	1/27/2022 10:13:06 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+556.09863	19.750994	11.233991	0.0012189748	0.7515403
+
+Data Acquisition						Time:	566.02637	s	1/27/2022 10:13:16 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+566.02637	19.872658	11.27484	0.0012765116	0.7716521
+
+Data Acquisition						Time:	575.95703	s	1/27/2022 10:13:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+575.95703	19.828991	11.295834	0.001208694	0.79347974
+
+Data Acquisition						Time:	585.88672	s	1/27/2022 10:13:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+585.88672	19.512999	11.316959	0.0010909982	0.81884795
+
+Data Acquisition						Time:	595.81641	s	1/27/2022 10:13:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+595.81641	19.615534	11.339284	0.0010340601	0.839486
+
+Data Acquisition						Time:	605.74609	s	1/27/2022 10:13:56 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+605.74609	19.56642	11.362524	0.00087333313	0.86356866
+
+Data Acquisition						Time:	615.67578	s	1/27/2022 10:14:06 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+615.67578	19.47456	11.385845	0.0010926684	0.887339
+
+Data Acquisition						Time:	625.60547	s	1/27/2022 10:14:16 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+625.60547	19.431404	11.408609	0.0010924232	0.91079468
+
+Data Acquisition						Time:	635.53516	s	1/27/2022 10:14:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+635.53516	19.385336	11.431529	0.0010701256	0.93437183
+
+Data Acquisition						Time:	645.46484	s	1/27/2022 10:14:35 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+645.46484	19.265139	11.454201	0.00075734971	0.95793426
+
+Data Acquisition						Time:	655.39453	s	1/27/2022 10:14:45 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+655.39453	19.09384	11.475016	0.00044412332	0.98076928
+
+Data Acquisition						Time:	665.32617	s	1/27/2022 10:14:55 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+665.3252	18.878729	11.495231	0.00043291296	1.0047343
+
+Data Acquisition						Time:	675.25391	s	1/27/2022 10:15:05 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+675.25391	18.813684	11.518063	0.00059171923	1.028892
+
+Data Acquisition						Time:	685.18359	s	1/27/2022 10:15:15 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+685.18359	18.725344	11.540183	0.00059519341	1.0529841
+
+Data Acquisition						Time:	695.11426	s	1/27/2022 10:15:25 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+695.11426	18.697498	11.564206	0.00043311145	1.0772996
+
+Data Acquisition						Time:	695.70703	s	1/27/2022 10:15:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+695.70703	18.570253	11.56363	0.00028733248	1.0783622
+
+Data Acquisition						Time:	696.30078	s	1/27/2022 10:15:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+696.30078	18.670624	11.566593	0.00024639926	1.079561
+
+Data Acquisition						Time:	696.89453	s	1/27/2022 10:15:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+696.89453	18.671041	11.568207	0.00046995279	1.0814075
+
+Data Acquisition						Time:	697.48828	s	1/27/2022 10:15:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+697.48828	18.643364	11.569496	0.0003617919	1.0827832
+
+Data Acquisition						Time:	698.08203	s	1/27/2022 10:15:28 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+698.08203	18.548088	11.56914	0.00046176222	1.0841013
+
+Data Acquisition						Time:	698.67676	s	1/27/2022 10:15:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+698.67676	18.614408	11.571813	0.00074626767	1.0847619
+
+Data Acquisition						Time:	699.26953	s	1/27/2022 10:15:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+699.26953	18.67108	11.574178	0.00096573489	1.0865939
+
+Data Acquisition						Time:	699.86328	s	1/27/2022 10:15:30 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+699.86328	18.623636	11.574208	0.00055237842	1.0881491
+
+Data Acquisition						Time:	700.45703	s	1/27/2022 10:15:30 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+700.45703	18.531267	11.574677	0.00068414409	1.0893668
+
+Data Acquisition						Time:	701.05176	s	1/27/2022 10:15:31 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+701.05176	18.547827	11.575897	0.00055982103	1.0899322
+
+Data Acquisition						Time:	701.64453	s	1/27/2022 10:15:32 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+701.64453	18.672405	11.579885	0.00052142033	1.0917343
+
+Data Acquisition						Time:	702.23828	s	1/27/2022 10:15:32 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+702.23828	18.614695	11.579854	0.00055497128	1.0940118
+
+Data Acquisition						Time:	702.83105	s	1/27/2022 10:15:33 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+702.83105	18.57909	11.580116	0.0006511606	1.0957845
+
+Data Acquisition						Time:	703.42578	s	1/27/2022 10:15:33 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+703.42578	18.488623	11.581052	0.00030478128	1.0963475
+
+Data Acquisition						Time:	704.02051	s	1/27/2022 10:15:34 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+704.02051	18.610401	11.58459	0.00028499513	1.0979645
+
+Data Acquisition						Time:	704.61328	s	1/27/2022 10:15:35 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+704.61328	18.578785	11.585032	0.0004342352	1.099746
+
+Data Acquisition						Time:	705.20703	s	1/27/2022 10:15:35 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+705.20703	18.581573	11.586946	0.0003240736	1.1014751
+
+Data Acquisition						Time:	705.80078	s	1/27/2022 10:15:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+705.80078	18.446859	11.5857	0.00040796137	1.102406
+
+Data Acquisition						Time:	706.39453	s	1/27/2022 10:15:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+706.39453	18.564005	11.589497	0.00061032933	1.1034579
+
+Data Acquisition						Time:	706.99219	s	1/27/2022 10:15:37 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+706.99121	18.57494	11.591513	0.00048425896	1.1051329
+
+Data Acquisition						Time:	707.58594	s	1/27/2022 10:15:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+707.58594	18.53499	11.592066	0.00026268626	1.1069379
+
+Data Acquisition						Time:	708.17969	s	1/27/2022 10:15:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+708.17969	18.446247	11.592564	0.00060074258	1.108278
+
+Data Acquisition						Time:	708.77539	s	1/27/2022 10:15:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+708.77441	18.486353	11.594003	0.00065491424	1.1090029
+
+Data Acquisition						Time:	709.36719	s	1/27/2022 10:15:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+709.36719	18.605812	11.596403	0.00054476777	1.1109898
+
+Data Acquisition						Time:	709.96094	s	1/27/2022 10:15:40 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+709.96094	18.531675	11.597251	0.00057599432	1.1129165
+
+Data Acquisition						Time:	710.55469	s	1/27/2022 10:15:41 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+710.55469	18.449608	11.598067	0.00069824466	1.1144609
+
+Data Acquisition						Time:	711.14844	s	1/27/2022 10:15:41 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+711.14844	18.421955	11.598657	0.0007048751	1.1153139
+
+Data Acquisition						Time:	711.74414	s	1/27/2022 10:15:42 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+711.74316	18.525059	11.602716	0.00031586364	1.117058
+
+Data Acquisition						Time:	712.33594	s	1/27/2022 10:15:42 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+712.33594	18.473297	11.602365	0.00046089277	1.118709
+
+Data Acquisition						Time:	712.92969	s	1/27/2022 10:15:43 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+712.92969	18.470762	11.603821	0.00043450115	1.1201296
+
+Data Acquisition						Time:	713.52344	s	1/27/2022 10:15:43 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+713.52344	18.380972	11.603834	0.00058340171	1.1210908
+
+Data Acquisition						Time:	714.11719	s	1/27/2022 10:15:44 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+714.11719	18.473804	11.607398	0.00027284963	1.1223422
+
+Data Acquisition						Time:	714.71191	s	1/27/2022 10:15:45 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+714.71191	18.459528	11.608267	0.00084842427	1.1238989
+
+Data Acquisition						Time:	715.30469	s	1/27/2022 10:15:45 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+715.30469	18.447981	11.609909	0.00039779377	1.1256416
+
+Data Acquisition						Time:	715.89844	s	1/27/2022 10:15:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+715.89844	18.334333	11.609106	0.00051338022	1.1265652
+
+Data Acquisition						Time:	716.49219	s	1/27/2022 10:15:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+716.49219	18.47468	11.61272	0.00068239251	1.1276338
+
+Data Acquisition						Time:	717.08594	s	1/27/2022 10:15:47 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+717.08594	18.48089	11.614742	0.00077322975	1.1300043
+
+Data Acquisition						Time:	717.68262	s	1/27/2022 10:15:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+717.68164	18.433226	11.614604	0.00029433463	1.1317482
+
+Data Acquisition						Time:	718.27734	s	1/27/2022 10:15:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+718.27734	18.311356	11.61461	0.00048025022	1.1331373
+
+Data Acquisition						Time:	718.87109	s	1/27/2022 10:15:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+718.87109	18.341074	11.616897	0.00068741152	1.1337533
+
+Data Acquisition						Time:	719.46582	s	1/27/2022 10:15:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+719.46582	18.43729	11.619503	0.00071123953	1.1354707
+
+Data Acquisition						Time:	720.05859	s	1/27/2022 10:15:50 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+720.05859	18.427126	11.620528	0.00057853112	1.1373562
+
+Data Acquisition						Time:	720.65234	s	1/27/2022 10:15:51 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+720.65234	18.296574	11.621484	0.00066325837	1.1401159
+
+Data Acquisition						Time:	721.24609	s	1/27/2022 10:15:51 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+721.24609	18.226728	11.62211	0.00056162954	1.1403836
+
+Data Acquisition						Time:	721.83789	s	1/27/2022 10:15:52 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+721.83789	18.328844	11.624055	0.00058388012	1.1415457
+
+Data Acquisition						Time:	722.43652	s	1/27/2022 10:15:52 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+722.43652	18.324066	11.624825	0.00055832765	1.1428896
+
+Data Acquisition						Time:	723.03125	s	1/27/2022 10:15:53 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+723.03125	18.27169	11.62709	0.00063628744	1.145923
+
+Data Acquisition						Time:	723.625	s	1/27/2022 10:15:54 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+723.625	18.184	11.626336	0.0005744595	1.1464487
+
+Data Acquisition						Time:	724.2168	s	1/27/2022 10:15:54 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+724.2168	18.312386	11.629389	0.00057576993	1.1474714
+
+Data Acquisition						Time:	724.8125	s	1/27/2022 10:15:55 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+724.8125	18.309847	11.630172	0.00027778663	1.1488916
+
+Data Acquisition						Time:	725.40625	s	1/27/2022 10:15:55 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+725.40625	18.337326	11.632336	0.00040736605	1.1506956
+
+Data Acquisition						Time:	725.99902	s	1/27/2022 10:15:56 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+725.99902	18.233578	11.632577	0.00028355903	1.1517261
+
+Data Acquisition						Time:	726.59375	s	1/27/2022 10:15:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+726.59375	18.313776	11.635092	0.00044850371	1.1525851
+
+Data Acquisition						Time:	727.19043	s	1/27/2022 10:15:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+727.18945	18.330025	11.636492	0.00068264164	1.1541008
+
+Data Acquisition						Time:	727.78613	s	1/27/2022 10:15:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+727.78613	18.322752	11.637709	0.00043632492	1.155586
+
+Data Acquisition						Time:	728.37891	s	1/27/2022 10:15:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+728.37891	18.212791	11.637611	0.00027515716	1.1571054
+
+Data Acquisition						Time:	728.97363	s	1/27/2022 10:15:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+728.97363	18.250832	11.639529	0.0005404118	1.1581018
+
+Data Acquisition						Time:	729.56543	s	1/27/2022 10:16:00 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+729.56543	18.311283	11.641964	0.00040896211	1.159587
+
+Data Acquisition						Time:	730.16016	s	1/27/2022 10:16:00 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+730.16016	18.305473	11.643814	0.00065599743	1.1614611
+
+Data Acquisition						Time:	730.75391	s	1/27/2022 10:16:01 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+730.75391	18.200962	11.643167	0.00060298311	1.1629511
+
+Data Acquisition						Time:	731.34766	s	1/27/2022 10:16:01 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+731.34766	18.149271	11.643475	0.0006579879	1.1633197
+
+Data Acquisition						Time:	731.94238	s	1/27/2022 10:16:02 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+731.94238	18.307091	11.647536	0.00043808104	1.1649637
+
+Data Acquisition						Time:	732.53516	s	1/27/2022 10:16:03 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+732.53516	18.291349	11.64885	0.00068185641	1.1672208
+
+Data Acquisition						Time:	733.13086	s	1/27/2022 10:16:03 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+733.12988	18.241076	11.649678	0.00020171619	1.1693422
+
+Data Acquisition						Time:	733.72266	s	1/27/2022 10:16:04 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+733.72266	18.088964	11.64843	0.00033403255	1.1699808
+
+Data Acquisition						Time:	734.31641	s	1/27/2022 10:16:04 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+734.31641	18.248274	11.652539	0.0002662974	1.1715145
+
+Data Acquisition						Time:	734.91406	s	1/27/2022 10:16:05 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+734.91309	18.209732	11.653577	0.00055075885	1.1733027
+
+Data Acquisition						Time:	735.50781	s	1/27/2022 10:16:05 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+735.50781	18.219866	11.655167	0.00051462045	1.1747459
+
+Data Acquisition						Time:	736.10156	s	1/27/2022 10:16:06 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+736.10156	18.099075	11.655032	0.00043615681	1.1756893
+
+Data Acquisition						Time:	736.69922	s	1/27/2022 10:16:07 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+736.69824	18.197283	11.658502	0.00053292018	1.1766841
+
+Data Acquisition						Time:	737.29297	s	1/27/2022 10:16:07 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+737.29297	18.191568	11.658759	0.00087353337	1.1784508
+
+Data Acquisition						Time:	737.88965	s	1/27/2022 10:16:08 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+737.88867	18.22823	11.660389	0.00026314415	1.17985
+
+Data Acquisition						Time:	738.48438	s	1/27/2022 10:16:08 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+738.48438	18.108061	11.659885	0.00084626576	1.181246
+
+Data Acquisition						Time:	739.07813	s	1/27/2022 10:16:09 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+739.07813	18.199146	11.662362	0.00088397757	1.1821954
+
+Data Acquisition						Time:	739.67188	s	1/27/2022 10:16:10 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+739.67188	18.219763	11.665387	0.00048967672	1.1842153
+
+Data Acquisition						Time:	740.26563	s	1/27/2022 10:16:10 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+740.26563	18.177887	11.66545	0.00059877097	1.1861802
+
+Data Acquisition						Time:	740.85938	s	1/27/2022 10:16:11 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+740.85938	18.099688	11.66588	0.0006719486	1.1880161
+
+Data Acquisition						Time:	741.45313	s	1/27/2022 10:16:11 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+741.45313	18.062489	11.66688	0.00049571361	1.1885548
+
+Data Acquisition						Time:	742.04688	s	1/27/2022 10:16:12 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+742.04688	18.165335	11.670748	0.0006133758	1.1903522
+
+Data Acquisition						Time:	742.64063	s	1/27/2022 10:16:13 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+742.64063	18.125532	11.670566	0.00049218931	1.1918778
+
+Data Acquisition						Time:	743.23438	s	1/27/2022 10:16:13 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+743.23438	18.096577	11.672491	0.00031028394	1.1936078
+
+Data Acquisition						Time:	743.82813	s	1/27/2022 10:16:14 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+743.82813	17.978165	11.672073	0.00024221533	1.1943244
+
+Data Acquisition						Time:	744.42188	s	1/27/2022 10:16:14 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+744.42188	18.110424	11.676057	0.00034439139	1.1955692
+
+Data Acquisition						Time:	745.01563	s	1/27/2022 10:16:15 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+745.01563	18.083006	11.676249	0.00024387726	1.1970249
+
+Data Acquisition						Time:	745.61035	s	1/27/2022 10:16:16 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+745.61035	18.139854	11.677882	0.00040560498	1.198814
+
+Data Acquisition						Time:	746.20313	s	1/27/2022 10:16:16 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+746.20313	17.966125	11.677029	0.00040284332	1.1997269
+
+Data Acquisition						Time:	746.79688	s	1/27/2022 10:16:17 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+746.79688	18.117729	11.681271	0.00044596338	1.2010604
+
+Data Acquisition						Time:	747.39063	s	1/27/2022 10:16:17 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+747.39063	18.076303	11.681746	0.0004430374	1.2031109
+
+Data Acquisition						Time:	747.98438	s	1/27/2022 10:16:18 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+747.98438	18.068586	11.68305	0.00062923599	1.2050165
+
+Data Acquisition						Time:	748.57813	s	1/27/2022 10:16:19 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+748.57813	17.930332	11.682553	0.00099784485	1.2063066
+
+Data Acquisition						Time:	749.17285	s	1/27/2022 10:16:19 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+749.17285	17.991522	11.685175	0.00043964828	1.207082
+
+Data Acquisition						Time:	749.76563	s	1/27/2022 10:16:20 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+749.76563	18.056023	11.687266	0.00061889959	1.2090521
+
+Data Acquisition						Time:	750.35938	s	1/27/2022 10:16:20 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+750.35938	18.042597	11.687686	0.00053285039	1.210536
+
+Data Acquisition						Time:	750.95313	s	1/27/2022 10:16:21 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+750.95313	17.930672	11.688709	0.00028587313	1.2120131
+
+Data Acquisition						Time:	751.54688	s	1/27/2022 10:16:22 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+751.54688	17.892809	11.6896	0.00024239812	1.2126426
+
+Data Acquisition						Time:	752.14453	s	1/27/2022 10:16:22 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+752.14355	18.039259	11.69345	0.00063706411	1.2141893
+
+Data Acquisition						Time:	752.73828	s	1/27/2022 10:16:23 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+752.73828	18.019695	11.693613	0.00063533825	1.2158117
+
+Data Acquisition						Time:	753.33203	s	1/27/2022 10:16:23 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+753.33203	17.964256	11.694897	0.00043851757	1.2174978
+
+Data Acquisition						Time:	753.92676	s	1/27/2022 10:16:24 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+753.92676	17.869411	11.694764	0.00019232377	1.2180657
+
+Data Acquisition						Time:	754.51953	s	1/27/2022 10:16:24 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+754.51953	18.032677	11.698368	0.00043604692	1.2199979
+
+Data Acquisition						Time:	755.11328	s	1/27/2022 10:16:25 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+755.11328	17.957626	11.699314	0.00021724425	1.2217571
+
+Data Acquisition						Time:	755.70703	s	1/27/2022 10:16:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+755.70703	17.950771	11.700263	0.00018563498	1.2232313
+
+Data Acquisition						Time:	756.30078	s	1/27/2022 10:16:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+756.30078	17.8514	11.69988	0.00036051637	1.2240826
+
+Data Acquisition						Time:	756.89551	s	1/27/2022 10:16:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+756.89551	17.986551	11.704128	0.00047580487	1.2254251
+
+Data Acquisition						Time:	757.48828	s	1/27/2022 10:16:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+757.48828	17.930197	11.704707	0.00036041165	1.2271969
+
+Data Acquisition						Time:	758.08203	s	1/27/2022 10:16:28 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+758.08203	17.937922	11.705949	0.00058518152	1.2288035
+
+Data Acquisition						Time:	758.67578	s	1/27/2022 10:16:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+758.67578	17.815319	11.705666	0.00063792866	1.229785
+
+Data Acquisition						Time:	759.26953	s	1/27/2022 10:16:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+759.26953	17.9333	11.708714	0.00048089295	1.2306584
+
+Data Acquisition						Time:	759.8623	s	1/27/2022 10:16:30 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+759.8623	17.923695	11.710139	0.00060896185	1.2328026
+
+Data Acquisition						Time:	760.45703	s	1/27/2022 10:16:30 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+760.45703	17.951324	11.711056	0.00061440928	1.234246
+
+Data Acquisition						Time:	761.05078	s	1/27/2022 10:16:31 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+761.05078	17.827353	11.71201	0.00037761469	1.2358073
+
+Data Acquisition						Time:	761.64453	s	1/27/2022 10:16:32 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+761.64453	17.843615	11.712662	0.00043077063	1.236469
+
+Data Acquisition						Time:	762.23926	s	1/27/2022 10:16:32 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+762.23926	17.934517	11.716245	0.00032364071	1.2384747
+
+Data Acquisition						Time:	762.83008	s	1/27/2022 10:16:33 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+762.83008	17.866529	11.716586	0.0004316066	1.2404372
+
+Data Acquisition						Time:	763.42578	s	1/27/2022 10:16:33 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+763.42578	17.833523	11.717677	0.00011732675	1.2421269
+
+Data Acquisition						Time:	764.01953	s	1/27/2022 10:16:34 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+764.01953	17.761862	11.717628	0.00031488156	1.2427676
+
+Data Acquisition						Time:	764.61328	s	1/27/2022 10:16:35 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+764.61328	17.90086	11.721982	0.00020593256	1.244676
+
+Data Acquisition						Time:	765.20703	s	1/27/2022 10:16:35 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+765.20703	17.825127	11.722218	0.00033057496	1.2464626
+
+Data Acquisition						Time:	765.80469	s	1/27/2022 10:16:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+765.80371	17.841688	11.724121	0.00045459659	1.2479826
+
+Data Acquisition						Time:	766.39648	s	1/27/2022 10:16:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+766.39648	17.705151	11.723206	0.00056077319	1.2488577
+
+Data Acquisition						Time:	766.99219	s	1/27/2022 10:16:37 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+766.99219	17.868572	11.726566	0.00023140937	1.2504184
+
+Data Acquisition						Time:	767.58594	s	1/27/2022 10:16:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+767.58594	17.802584	11.727533	0.00024793803	1.2522209
+
+Data Acquisition						Time:	768.17871	s	1/27/2022 10:16:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+768.17871	17.809359	11.728704	0.00031620119	1.2537084
+
+Data Acquisition						Time:	768.77344	s	1/27/2022 10:16:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+768.77344	17.664179	11.727687	0.00033704622	1.2550321
+
+Data Acquisition						Time:	769.36719	s	1/27/2022 10:16:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+769.36719	17.823191	11.731991	0.00041292733	1.2559516
+
+Data Acquisition						Time:	769.96289	s	1/27/2022 10:16:40 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+769.96191	17.794168	11.733851	0.00059786334	1.2581038
+
+Data Acquisition						Time:	770.55859	s	1/27/2022 10:16:41 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+770.55762	17.755764	11.734159	0.00036329502	1.2598982
+
+Data Acquisition						Time:	771.15234	s	1/27/2022 10:16:41 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+771.15234	17.638287	11.733671	0.00023496817	1.261404
+
+Data Acquisition						Time:	771.74609	s	1/27/2022 10:16:42 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+771.74609	17.693914	11.736081	0.00026858761	1.2616887
+
+Data Acquisition						Time:	772.34277	s	1/27/2022 10:16:42 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+772.34277	17.764442	11.739182	0.00053622248	1.26346
+
+Data Acquisition						Time:	772.94141	s	1/27/2022 10:16:43 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+772.94043	17.729954	11.738844	0.00058150105	1.2654259
+
+Data Acquisition						Time:	773.53516	s	1/27/2022 10:16:44 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+773.53516	17.653652	11.740163	0.00066466519	1.2666004
+
+Data Acquisition						Time:	774.12891	s	1/27/2022 10:16:44 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+774.12891	17.594316	11.740441	0.00044582569	1.267261
+
+Data Acquisition						Time:	774.72266	s	1/27/2022 10:16:45 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+774.72266	17.768576	11.74445	0.00049581454	1.2691182
+
+Data Acquisition						Time:	775.31641	s	1/27/2022 10:16:45 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+775.31641	17.708858	11.744986	0.0003987001	1.2705331
+
+Data Acquisition						Time:	775.91113	s	1/27/2022 10:16:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+775.91113	17.69072	11.746231	0.0002209018	1.2722375
+
+Data Acquisition						Time:	776.50391	s	1/27/2022 10:16:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+776.50391	17.539131	11.745096	0.00018441003	1.2728065
+
+Data Acquisition						Time:	777.09766	s	1/27/2022 10:16:47 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+777.09766	17.742098	11.749396	0.0003627938	1.2747544
+
+Data Acquisition						Time:	777.69141	s	1/27/2022 10:16:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+777.69141	17.662333	11.750554	0.00021697175	1.2768458
+
+Data Acquisition						Time:	778.28516	s	1/27/2022 10:16:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+778.28516	17.672737	11.75175	0.00032500381	1.2787317
+
+Data Acquisition						Time:	778.88184	s	1/27/2022 10:16:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+778.88086	17.510248	11.750669	0.00059965625	1.2797421
+
+Data Acquisition						Time:	779.47266	s	1/27/2022 10:16:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+779.47266	17.681734	11.75479	0.00054291537	1.2806392
+
+Data Acquisition						Time:	780.06641	s	1/27/2022 10:16:50 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+780.06641	17.634159	11.756228	0.000469291	1.2827308
+
+Data Acquisition						Time:	780.66016	s	1/27/2022 10:16:51 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+780.66016	17.632061	11.756964	0.00057813636	1.2843442
+
+Data Acquisition						Time:	781.25488	s	1/27/2022 10:16:51 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+781.25488	17.510309	11.756323	0.00043777077	1.2854856
+
+Data Acquisition						Time:	781.84668	s	1/27/2022 10:16:52 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+781.84668	17.63044	11.760065	0.00045453754	1.2863697
+
+Data Acquisition						Time:	782.44141	s	1/27/2022 10:16:52 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+782.44141	17.634771	11.761533	0.00038355694	1.2885642
+
+Data Acquisition						Time:	783.03516	s	1/27/2022 10:16:53 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+783.03516	17.57534	11.762069	0.00033674273	1.2903665
+
+Data Acquisition						Time:	783.62891	s	1/27/2022 10:16:54 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+783.62891	17.500397	11.76229	0.00017618397	1.2914854
+
+Data Acquisition						Time:	784.22266	s	1/27/2022 10:16:54 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+784.22266	17.508146	11.763456	0.00015144859	1.2921553
+
+Data Acquisition						Time:	784.81641	s	1/27/2022 10:16:55 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+784.81641	17.604759	11.767396	0.00035972038	1.2942805
+
+Data Acquisition						Time:	785.41016	s	1/27/2022 10:16:55 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+785.41016	17.544231	11.766759	0.00025970195	1.295737
+
+Data Acquisition						Time:	786.00391	s	1/27/2022 10:16:56 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+786.00391	17.48992	11.767597	0.00037772741	1.2971995
+
+Data Acquisition						Time:	786.59766	s	1/27/2022 10:16:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+786.59766	17.411024	11.767557	0.00050870556	1.298059
+
+Data Acquisition						Time:	787.19141	s	1/27/2022 10:16:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+787.19141	17.578253	11.772996	0.00059405761	1.299749
+
+Data Acquisition						Time:	787.78516	s	1/27/2022 10:16:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+787.78516	17.491184	11.772869	0.0004110444	1.3015777
+
+Data Acquisition						Time:	788.37891	s	1/27/2022 10:16:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+788.37891	17.467194	11.773376	0.0005111944	1.3032193
+
+Data Acquisition						Time:	788.97266	s	1/27/2022 10:16:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+788.97266	17.367146	11.772349	0.00049752148	1.3037834
+
+Data Acquisition						Time:	789.56445	s	1/27/2022 10:17:00 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+789.56445	17.544094	11.778032	0.00045976773	1.3052502
+
+Data Acquisition						Time:	790.16016	s	1/27/2022 10:17:00 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+790.16016	17.470621	11.77864	0.000379031	1.3077277
+
+Data Acquisition						Time:	790.75391	s	1/27/2022 10:17:01 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+790.75391	17.448397	11.77949	0.00030074856	1.3089101
+
+Data Acquisition						Time:	791.34766	s	1/27/2022 10:17:01 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+791.34766	17.325733	11.77816	0.0001442135	1.3098234
+
+Data Acquisition						Time:	791.94141	s	1/27/2022 10:17:02 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+791.94141	17.496531	11.782376	0.0001228761	1.3109677
+
+Data Acquisition						Time:	792.53516	s	1/27/2022 10:17:03 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+792.53516	17.447737	11.784613	0.0002970089	1.31357
+
+Data Acquisition						Time:	793.12891	s	1/27/2022 10:17:03 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+793.12891	17.400536	11.784535	0.00021990412	1.3150125
+
+Data Acquisition						Time:	793.72363	s	1/27/2022 10:17:04 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+793.72363	17.317186	11.784752	0.00045294763	1.3159893
+
+Data Acquisition						Time:	794.31641	s	1/27/2022 10:17:04 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+794.31641	17.410297	11.786904	0.00051845569	1.3166727
+
+Data Acquisition						Time:	794.91016	s	1/27/2022 10:17:05 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+794.91016	17.435114	11.7897	0.00054953073	1.3193805
+
+Data Acquisition						Time:	795.50391	s	1/27/2022 10:17:05 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+795.50391	17.354412	11.789883	0.00043092028	1.3209147
+
+Data Acquisition						Time:	796.09766	s	1/27/2022 10:17:06 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+796.09766	17.309965	11.790122	0.00055269821	1.3220923
+
+Data Acquisition						Time:	796.69238	s	1/27/2022 10:17:07 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+796.69238	17.254181	11.790887	0.00040404225	1.3227651
+
+Data Acquisition						Time:	797.28516	s	1/27/2022 10:17:07 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+797.28516	17.418505	11.795145	0.00034935601	1.3244925
+
+Data Acquisition						Time:	797.87891	s	1/27/2022 10:17:08 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+797.87891	17.334534	11.795445	0.0003603801	1.3265731
+
+Data Acquisition						Time:	798.47266	s	1/27/2022 10:17:08 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+798.47266	17.320223	11.796167	0.00032639931	1.3281919
+
+Data Acquisition						Time:	799.06836	s	1/27/2022 10:17:09 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+799.06738	17.19157	11.795161	0.00017501893	1.3285131
+
+Data Acquisition						Time:	799.66016	s	1/27/2022 10:17:10 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+799.66016	17.381367	11.800447	0.00014042566	1.3305551
+
+Data Acquisition						Time:	800.25391	s	1/27/2022 10:17:10 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+800.25391	17.281923	11.800445	0.00032095003	1.3328265
+
+Data Acquisition						Time:	800.84668	s	1/27/2022 10:17:11 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+800.84668	17.29438	11.801841	0.00017535308	1.3342978
+
+Data Acquisition						Time:	801.44141	s	1/27/2022 10:17:11 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+801.44141	17.133423	11.800409	0.00030960341	1.3351804
+
+Data Acquisition						Time:	802.03516	s	1/27/2022 10:17:12 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+802.03516	17.301712	11.805284	0.00046422821	1.3363993
+
+Data Acquisition						Time:	802.62891	s	1/27/2022 10:17:13 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+802.62891	17.245489	11.806779	0.00054582313	1.3386095
+
+Data Acquisition						Time:	803.22266	s	1/27/2022 10:17:13 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+803.22266	17.205387	11.80694	0.00043937942	1.3400836
+
+Data Acquisition						Time:	803.81641	s	1/27/2022 10:17:14 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+803.81641	17.085642	11.806139	0.00053245202	1.3410622
+
+Data Acquisition						Time:	804.41016	s	1/27/2022 10:17:14 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+804.41016	17.234121	11.810465	0.00047371909	1.341561
+
+Data Acquisition						Time:	805.00391	s	1/27/2022 10:17:15 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+805.00391	17.257069	11.812544	0.00031433365	1.344328
+
+Data Acquisition						Time:	805.59766	s	1/27/2022 10:17:16 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+805.59766	17.174099	11.812603	0.0003324541	1.3461064
+
+Data Acquisition						Time:	806.19141	s	1/27/2022 10:17:16 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+806.19141	17.080147	11.812825	0.00028628463	1.3474847
+
+Data Acquisition						Time:	806.78711	s	1/27/2022 10:17:17 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+806.78613	17.108412	11.814392	0.00012424965	1.3479931
+
+Data Acquisition						Time:	807.37891	s	1/27/2022 10:17:17 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+807.37891	17.209682	11.818019	7.5693686e-05	1.3507125
+
+Data Acquisition						Time:	807.97266	s	1/27/2022 10:17:18 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+807.97266	17.125238	11.81802	0.00024902786	1.3526371
+
+Data Acquisition						Time:	808.56641	s	1/27/2022 10:17:19 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+808.56641	17.07436	11.818898	0.00014760841	1.3540393
+
+Data Acquisition						Time:	809.16016	s	1/27/2022 10:17:19 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+809.16016	16.991016	11.818684	0.00027782808	1.3544263
+
+Data Acquisition						Time:	809.75391	s	1/27/2022 10:17:20 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+809.75391	17.163702	11.823538	0.00046209418	1.356631
+
+Data Acquisition						Time:	810.3457	s	1/27/2022 10:17:20 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+810.3457	17.075241	11.824018	0.00013442889	1.3583131
+
+Data Acquisition						Time:	810.94238	s	1/27/2022 10:17:21 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+810.94238	17.069691	11.825051	0.00031450304	1.3598789
+
+Data Acquisition						Time:	811.53516	s	1/27/2022 10:17:22 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+811.53516	16.902094	11.823803	0.00048430957	1.3605208
+
+Data Acquisition						Time:	812.12793	s	1/27/2022 10:17:22 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+812.12793	17.141586	11.828381	0.00051542575	1.3621223
+
+Data Acquisition						Time:	812.72363	s	1/27/2022 10:17:23 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+812.72363	17.013603	11.829794	7.8919926e-05	1.3650132
+
+Data Acquisition						Time:	813.31641	s	1/27/2022 10:17:23 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+813.31641	17.00161	11.830248	0.00025447237	1.3669549
+
+Data Acquisition						Time:	813.91406	s	1/27/2022 10:17:24 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+813.91309	16.839737	11.828854	0.00047365468	1.3679765
+
+Data Acquisition						Time:	814.50977	s	1/27/2022 10:17:24 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+814.50879	17.002659	11.83387	0.0003894688	1.3687046
+
+Data Acquisition						Time:	815.10156	s	1/27/2022 10:17:25 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+815.10156	16.956051	11.835218	0.00036667002	1.3712075
+
+Data Acquisition						Time:	815.69531	s	1/27/2022 10:17:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+815.69531	16.908291	11.834425	0.00036284165	1.372701
+
+Data Acquisition						Time:	816.28906	s	1/27/2022 10:17:26 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+816.28906	16.793201	11.834354	0.00024500245	1.3738053
+
+Data Acquisition						Time:	816.88281	s	1/27/2022 10:17:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+816.88281	16.90859	11.838718	7.1613147e-05	1.374427
+
+Data Acquisition						Time:	817.48145	s	1/27/2022 10:17:27 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+817.48047	16.919603	11.840763	0.00034388766	1.3772942
+
+Data Acquisition						Time:	818.07422	s	1/27/2022 10:17:28 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+818.07422	16.839365	11.840841	0.00048088669	1.3791077
+
+Data Acquisition						Time:	818.66797	s	1/27/2022 10:17:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+818.66797	16.753302	11.840584	0.00035763066	1.3802444
+
+Data Acquisition						Time:	819.26465	s	1/27/2022 10:17:29 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+819.26465	16.755136	11.843169	0.00032482276	1.3805712
+
+Data Acquisition						Time:	819.8584	s	1/27/2022 10:17:30 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+819.8584	16.885	11.84644	0.00034763667	1.3836939
+
+Data Acquisition						Time:	820.45313	s	1/27/2022 10:17:30 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+820.45313	16.75786	11.846146	0.00046407251	1.3858445
+
+Data Acquisition						Time:	821.0498	s	1/27/2022 10:17:31 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+821.04883	16.69318	11.846943	0.00022486411	1.3872521
+
+Data Acquisition						Time:	821.64453	s	1/27/2022 10:17:32 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+821.64453	16.598429	11.847048	0.00040762709	1.3876189
+
+Data Acquisition						Time:	822.23828	s	1/27/2022 10:17:32 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+822.23828	16.769911	11.851738	0.00036645654	1.3897409
+
+Data Acquisition						Time:	822.83008	s	1/27/2022 10:17:33 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+822.83008	16.657585	11.851697	0.00032447057	1.3922317
+
+Data Acquisition						Time:	823.42578	s	1/27/2022 10:17:33 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+823.42578	16.645555	11.852627	0.0004418286	1.3936971
+
+Data Acquisition						Time:	824.01953	s	1/27/2022 10:17:34 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+824.01953	16.465822	11.851945	0.0002718108	1.3945379
+
+Data Acquisition						Time:	824.61328	s	1/27/2022 10:17:35 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+824.61328	16.636099	11.856546	0.00029161759	1.3964584
+
+Data Acquisition						Time:	825.20703	s	1/27/2022 10:17:35 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+825.20703	16.261309	11.857721	0.00025387501	1.4025242
+
+Data Acquisition						Time:	825.80078	s	1/27/2022 10:17:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+825.80078	16.096296	11.857645	6.3244137e-05	1.4058788
+
+Data Acquisition						Time:	826.39453	s	1/27/2022 10:17:36 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+826.39453	15.795325	11.856898	2.1052392e-05	1.4091401
+
+Data Acquisition						Time:	826.98828	s	1/27/2022 10:17:37 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+826.98828	15.760712	11.861769	0.0001636322	1.4123344
+
+Data Acquisition						Time:	827.58203	s	1/27/2022 10:17:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+827.58203	14.412103	11.864652	0.00013501637	1.4327736
+
+Data Acquisition						Time:	828.17578	s	1/27/2022 10:17:38 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+828.17578	14.173888	11.863308	0.0001781985	1.4383471
+
+Data Acquisition						Time:	828.76953	s	1/27/2022 10:17:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+828.76953	14.011576	11.863964	0.00038015842	1.4405214
+
+Data Acquisition						Time:	829.36328	s	1/27/2022 10:17:39 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+829.36328	14.089738	11.866141	0.00043557081	1.44113
+
+Data Acquisition						Time:	829.95703	s	1/27/2022 10:17:40 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+829.95703	14.01586	11.869569	0.00032326658	1.4450748
+
+Data Acquisition						Time:	830.55078	s	1/27/2022 10:17:41 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+830.55078	13.857348	11.869012	0.00044289284	1.4478061
+
+Data Acquisition						Time:	831.14453	s	1/27/2022 10:17:41 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+831.14453	13.732917	11.869238	0.00039605174	1.4499366
+
+Data Acquisition						Time:	831.74023	s	1/27/2022 10:17:42 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+831.73926	13.703506	11.870039	5.093708e-05	1.4505458
+
+Data Acquisition						Time:	832.33203	s	1/27/2022 10:17:42 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+832.33203	13.739839	11.874298	0.00019322126	1.4538503
+
+Data Acquisition						Time:	832.92578	s	1/27/2022 10:17:43 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+832.92578	13.562523	11.874185	0.00017543873	1.4571853
+
+Data Acquisition						Time:	833.51953	s	1/27/2022 10:17:43 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+833.51953	13.463043	11.875979	5.7337515e-05	1.4596264
+
+Data Acquisition						Time:	834.11328	s	1/27/2022 10:17:44 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+834.11328	13.331029	11.874325	7.9582278e-06	1.4605627
+
+Data Acquisition						Time:	834.70801	s	1/27/2022 10:17:45 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+834.70801	13.418801	11.879541	0.00027638866	1.4633362
+
+Data Acquisition						Time:	835.30078	s	1/27/2022 10:17:45 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+835.30078	13.13541	11.879836	0.00011237506	1.4687849
+
+Data Acquisition						Time:	835.89453	s	1/27/2022 10:17:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+835.89453	13.049016	11.88092	0.00021320416	1.471535
+
+Data Acquisition						Time:	836.48926	s	1/27/2022 10:17:46 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+836.48926	12.824841	11.878858	0.00040166214	1.473022
+
+Data Acquisition						Time:	836.90234	s	1/27/2022 10:17:47 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+836.90234	12.980606	11.882885	0.00047860929	1.4740442
+
+Data Acquisition						Time:	837.31738	s	1/27/2022 10:17:47 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+837.31738	12.857955	11.885996	9.9688186e-05	1.4778168
+
+Data Acquisition						Time:	837.7334	s	1/27/2022 10:17:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+837.73242	12.683406	11.884851	1.7364609e-05	1.4812799
+
+Data Acquisition						Time:	838.15137	s	1/27/2022 10:17:48 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+838.15039	12.600616	11.886038	0.00020469524	1.4830791
+
+Data Acquisition						Time:	838.57031	s	1/27/2022 10:17:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+838.56934	12.527667	11.885339	0.00039121014	1.4847552
+
+Data Acquisition						Time:	838.9873	s	1/27/2022 10:17:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+838.98633	12.431592	11.885438	0.0002305872	1.4852617
+
+Data Acquisition						Time:	839.40527	s	1/27/2022 10:17:49 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+839.4043	12.58009	11.888761	0.00016535967	1.4864585
+
+Data Acquisition						Time:	839.81934	s	1/27/2022 10:17:50 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+839.81934	12.457324	11.892357	6.2367006e-05	1.4900982
+
+Data Acquisition						Time:	840.23242	s	1/27/2022 10:17:50 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+840.23242	12.300629	11.888258	7.606158e-05	1.4936039
+
+Data Acquisition						Time:	840.65039	s	1/27/2022 10:17:51 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+840.65039	12.164339	11.890621	4.8467846e-05	1.4965484
+
+Data Acquisition						Time:	841.06641	s	1/27/2022 10:17:51 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+841.06641	12.070414	11.886722	0.00033739186	1.4982321
+
+Data Acquisition						Time:	841.48047	s	1/27/2022 10:17:51 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+841.48047	12.013062	11.887634	0.00044358007	1.4993821
+
+Data Acquisition						Time:	841.89844	s	1/27/2022 10:17:52 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+841.89746	12.089978	11.895047	2.9178134e-05	1.4999442
+
+Data Acquisition						Time:	842.31445	s	1/27/2022 10:17:52 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+842.31348	12.015925	11.897432	0.00024962914	1.5026485
+
+Data Acquisition						Time:	842.72949	s	1/27/2022 10:17:53 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+842.72852	11.857778	11.897014	0.00036869504	1.5055044
+
+Data Acquisition						Time:	843.14453	s	1/27/2022 10:17:53 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+843.14453	11.788915	11.897403	0.00018949391	1.507461
+
+Data Acquisition						Time:	843.5625	s	1/27/2022 10:17:54 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+843.56152	11.671809	11.897606	0.00038069789	1.5094371
+
+Data Acquisition						Time:	843.97656	s	1/27/2022 10:17:54 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+843.97656	11.541478	11.896673	3.278143e-05	1.5099726
+
+Data Acquisition						Time:	844.39063	s	1/27/2022 10:17:54 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+844.39063	11.689066	11.90028	3.0126797e-05	1.5108414
+
+Data Acquisition						Time:	844.80762	s	1/27/2022 10:17:55 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+844.80664	11.523245	11.902411	0.00042807791	1.5149392
+
+Data Acquisition						Time:	845.22559	s	1/27/2022 10:17:55 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+845.22461	11.33394	11.901752	0.00019555846	1.5185997
+
+Data Acquisition						Time:	845.64355	s	1/27/2022 10:17:56 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+845.64258	11.246907	11.903229	0.00014426846	1.5204691
+
+Data Acquisition						Time:	846.05859	s	1/27/2022 10:17:56 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+846.05859	11.147725	11.902965	0.00027738314	1.5222578
+
+Data Acquisition						Time:	846.47656	s	1/27/2022 10:17:56 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+846.47559	11.048832	11.90243	5.8132046e-05	1.5228746
+
+Data Acquisition						Time:	846.89355	s	1/27/2022 10:17:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+846.89258	11.183396	11.906431	0.00026907315	1.5238601
+
+Data Acquisition						Time:	847.31152	s	1/27/2022 10:17:57 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+847.31055	11.009192	11.908264	4.6195935e-05	1.5280619
+
+Data Acquisition						Time:	847.72949	s	1/27/2022 10:17:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+847.72852	10.753598	11.907819	0.0001620994	1.532326
+
+Data Acquisition						Time:	848.14844	s	1/27/2022 10:17:58 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+848.14746	10.638891	11.908136	0.00039873604	1.5347495
+
+Data Acquisition						Time:	848.56641	s	1/27/2022 10:17:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+848.56543	10.517973	11.907801	0.00041137464	1.5366119
+
+Data Acquisition						Time:	848.98438	s	1/27/2022 10:17:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+848.9834	10.412057	11.907372	0.00017244951	1.5372158
+
+Data Acquisition						Time:	849.39844	s	1/27/2022 10:17:59 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+849.39844	10.473047	11.912064	0.00028204211	1.5390612
+
+Data Acquisition						Time:	849.81055	s	1/27/2022 10:18:00 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+849.81055	10.010315	11.914006	7.3600197e-05	1.5485324
+
+Data Acquisition						Time:	850.22656	s	1/27/2022 10:18:00 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+850.22656	9.8053503	11.913932	0.00036471235	1.5525534
+
+Data Acquisition						Time:	850.64355	s	1/27/2022 10:18:01 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+850.64258	9.7126522	11.913775	0.00012046285	1.5546118
+
+Data Acquisition						Time:	851.05859	s	1/27/2022 10:18:01 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+851.05859	9.6165848	11.914088	0.00032594969	1.556419
+
+Data Acquisition						Time:	851.47266	s	1/27/2022 10:18:01 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+851.47266	9.5115976	11.913005	0.00028574327	1.5574015
+
+Data Acquisition						Time:	851.88965	s	1/27/2022 10:18:02 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+851.88867	9.5886774	11.917398	7.7705017e-06	1.5588415
+
+Data Acquisition						Time:	852.30664	s	1/27/2022 10:18:02 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+852.30566	9.0855989	11.920211	0.00035577669	1.5680883
+
+Data Acquisition						Time:	852.72168	s	1/27/2022 10:18:03 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+852.72168	8.8676329	11.919237	0.00013498888	1.5726017
+
+Data Acquisition						Time:	853.14063	s	1/27/2022 10:18:03 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+853.13965	8.7265396	11.919355	0.00041901687	1.5753661
+
+Data Acquisition						Time:	853.55664	s	1/27/2022 10:18:04 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+853.55566	8.4830227	11.919872	-4.4809876e-05	1.5792954
+
+Data Acquisition						Time:	853.96875	s	1/27/2022 10:18:04 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+853.96875	8.3149805	11.918908	-3.4365981e-05	1.5817416
+
+Data Acquisition						Time:	854.38379	s	1/27/2022 10:18:04 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+854.38379	8.1975012	11.923647	0.00020603316	1.5851163
+
+Data Acquisition						Time:	854.7998	s	1/27/2022 10:18:05 AM
+Time	ESH B Force	ESH B Displacement	Analog In 1	Analog In 2
+s	kN	mm	V	V
+854.79883	7.4369311	11.9252	0.0003986581	1.5973974
