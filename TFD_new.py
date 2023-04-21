@@ -447,8 +447,8 @@ print("Extensometer stage start")
 
 # Function call for zero_extensometers() function
 zero_extensometers(specimens_SRB) #fine till here
-#zero_extensometers(specimens_R2)
-#zero_extensometers(specimens_R6)
+zero_extensometers(specimens_R2)
+zero_extensometers(specimens_R6)
 
 print("Extensometer stage finish") 
 
@@ -464,5 +464,5 @@ Size_axis_y = 22
 
 # Function call for plot_with_plotly() function
 plot_with_plotly(specimens_SRB)
-#plot_with_plotly(specimens_R2)
-#plot_with_plotly(specimens_R6)
+plot_with_plotly(specimens_R2)
+plot_with_plotly(specimens_R6)
