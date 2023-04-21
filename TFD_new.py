@@ -462,7 +462,7 @@ print("Extensometer stage start")
 # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
 
 # Function call for zero_extensometers() function
-zero_extensometers(specimens_SRB) #fine till here
+zero_extensometers(specimens_SRB) #testing time not working
 zero_extensometers(specimens_R2)
 zero_extensometers(specimens_R6)
 
