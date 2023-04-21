@@ -334,8 +334,9 @@ def plot_with_plotly(specimens):
     
     # Create plotly figure
     fig = go.Figure()
-    
+        
     for specimen in specimens:
+        print(type(specimen))
         print("/n Specimen Condition type is",specimen.condition_type)
         if specimen.condition_type == 'AIR':
             color = '#1e64c8'
@@ -479,5 +480,3 @@ Size_axis_y = 22
 plot_with_plotly(specimens_SRB)
 plot_with_plotly(specimens_R2)
 plot_with_plotly(specimens_R6)
-
-#plot_with_plotly(specimens,Size_title_x, Size_title_y, Size_axis_x, Size_axis_y)
