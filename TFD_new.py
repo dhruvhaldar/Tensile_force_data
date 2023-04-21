@@ -330,7 +330,7 @@ def plot_with_plotly(specimens):
         'H2_HC2': '#d81e56'
     }
     linestyle_dict = {
-        'AIR': 'solid',
+        #'AIR': 'solid',
         'H2_HC1': 'longdash',
         'H2_HC2': 'dashdot'
     }
@@ -340,29 +340,25 @@ def plot_with_plotly(specimens):
 
     for specimen in specimens:
         """
-        This sets the color variable to the value associated with the condition_type key in the color_dict dictionary for the current specimen. If there is no value associated with the condition_type key, the default value 'blue' is used. 
+        This sets the color variable to the value associated with the condition_type key in the color_dict dictionary for the current specimen. If there is no value associated with the condition_type key, the default value 'blue' is used.
+        This sets the linestyle variable to the value associated with the condition_type key in the linestyle_dict dictionary for the current specimen. If there is no value associated with the condition_type key, the default value 'solid' is used.
+        This adds a new trace to the fig figure object, using the go.Scatter() constructor. 
+        # This sets the x-values of the trace to the extensometer_plot column of the clipped_df DataFrame for the current specimen.  
+        # This sets the y-values of the trace to the 'ESH B Force' column of the clipped_df DataFrame for the current specimen. 
+        # This sets the mode of the trace to 'lines', indicating that it should be plotted as a line.   
+        # This sets the name of the trace to a formatted string that includes the material_type, condition_type, notch_type, and specimen_name attributes of the current specimen.   
+        # This sets the line color and dash style of the trace using the color and linestyle variables, respectively.  
+        # The resulting code creates a figure with a separate trace for each specimen in the specimens list, where each trace represents a line plot of the #'ESH B Force' column of the clipped_df DataFrame against the extensometer_plot column. The color and dash style of each line are determined by the # color_dict and linestyle_dict dictionaries based on the condition_type attribute of each specimen.
         """
         color = color_dict.get(specimen.condition_type, 'blue')
-        """
-        This sets the linestyle variable to the value associated with the condition_type key in the linestyle_dict dictionary for the current specimen. If there is no value associated with the condition_type key, the default value 'solid' is used.
-        """
         linestyle = linestyle_dict.get(specimen.condition_type, 'solid')
-        """
-        This adds a new trace to the fig figure object, using the go.Scatter() constructor.
-            
-        """
+       
         fig.add_trace(go.Scatter(
-            # This sets the x-values of the trace to the extensometer_plot column of the clipped_df DataFrame for the current specimen.
             x=specimen.clipped_df[specimen.extensometer_plot],
-            # This sets the y-values of the trace to the 'ESH B Force' column of the clipped_df DataFrame for the current specimen.
             y=specimen.clipped_df['ESH B Force'],
-            # This sets the mode of the trace to 'lines', indicating that it should be plotted as a line.
             mode='lines',
-            # This sets the name of the trace to a formatted string that includes the material_type, condition_type, notch_type, and specimen_name attributes of the current specimen.
-            name=f"{specimen.material_type}_{specimen.condition_type}_{specimen.notch_type}_{specimen.specimen_name}",
-            # This sets the line color and dash style of the trace using the color and linestyle variables, respectively.
-                line=dict(color=color, dash=linestyle)
-            # The resulting code creates a figure with a separate trace for each specimen in the specimens list, where each trace represents a line plot of the #'ESH B Force' column of the clipped_df DataFrame against the extensometer_plot column. The color and dash style of each line are determined by the # color_dict and linestyle_dict dictionaries based on the condition_type attribute of each specimen.
+            line=dict(color=color, dash=linestyle),
+            name=f"{specimen.material_type}_{specimen.condition_type}_{specimen.notch_type}_{specimen.specimen_name}_{specimen.test_duration_min} min"
         ))
 
     # Update layout
@@ -372,8 +368,8 @@ def plot_with_plotly(specimens):
             yanchor="top",
             x=1,
             y=-0.2,
-            #bgcolor='white',
-            font=dict(size=22),
+            bgcolor='white',
+            font=dict(size=20),
         ),
         xaxis_title='Elongation [mm]',
         xaxis_title_font=dict(size=22),
@@ -463,7 +459,7 @@ print("Extensometer stage start")
 # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
 
 # Function call for zero_extensometers() function
-zero_extensometers(specimens_SRB) #testing time not working
+zero_extensometers(specimens_SRB) 
 zero_extensometers(specimens_R2)
 zero_extensometers(specimens_R6)
 
@@ -483,3 +479,6 @@ Size_axis_y = 22
 plot_with_plotly(specimens_SRB)
 plot_with_plotly(specimens_R2)
 plot_with_plotly(specimens_R6)
+
+# TODO fix legend
+# TODO fix color and dots
