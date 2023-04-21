@@ -2,7 +2,7 @@
 1. Images are generated and saved as png in the same folder.
 2. Go through the docstrings to know what to change (mostly trace for changing dash and color).
 3. InputGraphs are in the home folder, change things there directly.
-4. Soecimen.dat data is in the subfolder.
+4. Specimen.dat data is in the subfolder.
 
 ## plot_with_plotly() function
 1. This sets the color variable to the value associated with the condition_type key in the color_dict dictionary for the current specimen. If there is no value associated with the condition_type key, the default value 'blue' is used.
