@@ -13,6 +13,9 @@ Optimize zero_extensometer()
 print("Importing packages stage")
 # Import libraries
 import os
+import datetime
+from datetime import datetime
+import random
 import numpy as np
 import pandas as pd
 from scipy.signal import savgol_filter
@@ -21,6 +24,7 @@ import matplotlib.pyplot as plt
 from loess.loess_1d import loess_1d
 import plotly.express as px
 import plotly.graph_objects as go
+import plotly.io as pio
 from statsmodels.nonparametric.smoothers_lowess import lowess
 print("Importing packages stage finish") 
 
@@ -337,7 +341,6 @@ def plot_with_plotly(specimens):
 
     # Create plotly figure
     fig = go.Figure()
-
     for specimen in specimens:
         """
         This sets the color variable to the value associated with the condition_type key in the color_dict dictionary for the current specimen. If there is no value associated with the condition_type key, the default value 'blue' is used.
@@ -385,7 +388,13 @@ def plot_with_plotly(specimens):
         paper_bgcolor='white',
         plot_bgcolor='white',
     )
+    
+    # Generate a unique filename based on the current date and time
+    now = datetime.now().strftime('%Y%m%d_%H%M%S')
+    filename = f"{now}.png"
 
+    # Save figure as png image with the unique filename
+    fig.write_image(filename) 
     return fig.show()
 #############################################################################################################################################
 # INPUT PARAMETERS TO BE GIVEN FOR VARIOUS FUNCTIONS
