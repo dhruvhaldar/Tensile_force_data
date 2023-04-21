@@ -316,59 +316,38 @@ def zero_extensometers(specimens):
 
 
 # Plot stage
+# One of the following dash styles:
+#         ['solid', 'dot', 'dash', 'longdash', 'dashdot', 'longdashdot']
+#   - A string containing a dash length list in pixels or percentages
+#         (e.g. '5px 10px 2px 2px', '5, 10, 2, 2', '10% 20% 40%', etc.)
+
 def plot_with_plotly(specimens):
-    # List of markers to iterate
-    linestyles = itertools.cycle(('solid', 'dotted', 'dash'))
-    #print("linestyle-",linestyle) # For debugging
-    
     # Define colors and linestyle of curves depending on condition type
-    air_count = 0
-    hc1_count = 0
-    hc2_count = 0 # Not used currently
-    #linestyles_list = ['solid', 'dashdot']
-    # One of the following dash styles:
-    #         ['solid', 'dot', 'dash', 'longdash', 'dashdot', 'longdashdot']
-    #   - A string containing a dash length list in pixels or percentages
-    #         (e.g. '5px 10px 2px 2px', '5, 10, 2, 2', '10% 20% 40%', etc.)
-    
-    
+    color_dict = {
+        'AIR': '#1e64c8',
+        'H2_HC1': '#d81e56',
+        'H2_HC2': 'royalblue'
+    }
+    linestyle_dict = {
+        'AIR': 'solid',
+        'H2_HC1': 'dashdot',
+        'H2_HC2': 'dash'
+    }
+
     # Create plotly figure
     fig = go.Figure()
-        
-    for specimen in specimens:
-        #print(type(specimen))
-        print ('\nSpecimen Condition type is',specimen.condition_type)
-        if specimen.condition_type == 'AIR':
-            color = '#1e64c8'
-            linestyle = 'solid'
-            air_count += 1 
-        elif specimen.condition_type == 'H2_HC1':
-            color = '#d81e56'
-            linestyle = 'dashdot'
-            hc1_count += 1 
-        else:
-            color = 'blue'
-            print('Condition type not known: ' + specimen.condition_type)
-            continue
-    #elif specimen.condition_type == 'H2_HC2':
-        #color = 'royalblue'
-        #linestyle = linestyles_list[hc2_count]
-        #hc2_count += 1 
 
-    # Add trace to the plotly figure
-    fig.add_trace(go.Scatter(x=specimen.clipped_df[specimen.extensometer_plot],
-                             y=specimen.clipped_df['ESH B Force'],
-                             mode='lines',
-                             name=specimen.material_type+"_"+specimen.condition_type+"_"+specimen.notch_type+"_"+specimen.specimen_name,
-                             line=dict(color=color, dash=linestyle),
-                             ))
-    
-    # Update legend count
-    numbercond = 0
-    for cond in [air_count, hc1_count, hc2_count]:
-        if cond > 0:
-            numbercond += 1
-            
+    for specimen in specimens:
+        color = color_dict.get(specimen.condition_type, 'blue')
+        linestyle = linestyle_dict.get(specimen.condition_type, 'solid')
+        fig.add_trace(go.Scatter(
+            x=specimen.clipped_df[specimen.extensometer_plot],
+            y=specimen.clipped_df['ESH B Force'],
+            mode='lines',
+            name=f"{specimen.material_type}_{specimen.condition_type}_{specimen.notch_type}_{specimen.specimen_name}",
+                line=dict(color=color, dash=linestyle)
+        ))
+
     # Update layout
     fig.update_layout(
         legend=dict(
@@ -377,17 +356,17 @@ def plot_with_plotly(specimens):
             x=1,
             y=-0.2,
             bgcolor='white',
-            font=dict(size=9),
-            ),
+            font=dict(size=22),
+        ),
         xaxis_title='Elongation [mm]',
         yaxis_title='Tensile force [kN]',
-        xaxis=dict(tickfont=dict(size=12)),
-        yaxis=dict(tickfont=dict(size=12)),
+        xaxis=dict(tickfont=dict(size=22)),
+        yaxis=dict(tickfont=dict(size=22)),
         showlegend=True,
         margin=dict(l=0, r=0, t=0, b=0),
         paper_bgcolor='white',
         plot_bgcolor='white',
-        )
+    )
 
     return fig.show()
 #############################################################################################################################################
