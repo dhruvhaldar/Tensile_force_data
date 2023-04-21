@@ -29,7 +29,7 @@ The comments are updated to provide clearer explanations of what each section of
 """
 
 class Specimen:
-    def __init__(self, home_dir, material_type, condition_type, notch_type, specimen_name, extensometer):
+    def __init__(self, home_dir, material_type, condition_type, notch_type, specimen_name, extensometer_plot):
         '''
         Parameters
         ----------
@@ -56,8 +56,9 @@ class Specimen:
         self.condition_type = condition_type
         self.notch_type = notch_type
         self.specimen_name = specimen_name
-        self.extensometer = extensometer
-        if extensometer == 'A':
+        self.extensometer_plot = extensometer_plot
+        print(self.extensometer_plot)
+        if extensometer_plot == 'A':
             self.extensometer_plot = 'Analog In 1'
         else:
             self.extensometer_plot = 'Analog In 2'
@@ -143,9 +144,7 @@ class Specimen:
 
         Notes
         -----
-        The extensometer data is adjusted to have a reference point of zero, relative to the first data point. This method
-        modifies the extensometer data in place, without creating a new DataFrame. The name of the specimen being processed
-        is printed as part of the output message for reference. 
+        The extensometer data is adjusted to have a reference point of zero, relative to the first data point. This method modifies the extensometer data in place, without creating a new DataFrame. The name of the specimen being processed is printed as part of the output message for reference. 
         """
         
         extensometer_col = self.clipped_df[self.extensometer_plot]
@@ -255,14 +254,15 @@ def process_specimens(specimens_df, home_dir):
     # Loop through each row in specimens_df
     for _, row in specimens_df.iterrows():
         # Extract the required column values
-        specimen_i = row['specimen_name']
-        material_i = row['material_type']
-        condition_i = row['condition_type']
-        notch_i = row['notch_type']
-        extensometer_i = row['extensometer_plot']
+        args_dict = {'home_dir': home_dir,
+                     'material_type': row['material_type'],
+                     'condition_type': row['condition_type'],
+                     'notch_type': row['notch_type'],
+                     'specimen_name': row['specimen_name'],
+                     'extensometer_plot': row['extensometer_plot']}
 
         # Create a Specimen object and add it to the set
-        value_i = Specimen(home_dir, material_i, condition_i, notch_i, specimen_i, extensometer_i)
+        value_i = Specimen(**args_dict)
         specimens.add(value_i)
 
     # Read in data for each Specimen object in the set
@@ -301,17 +301,17 @@ def zero_extensometers(specimens):
         None
     """
     for specimen in specimens:
-        print("zero_extensometers() function is run")
         specimen.zero_extensometer()
 
     # Calculate total testing time
     for specimen in specimens:
         specimen.testing_time()
-        print("Calculate total testing time", specimen.testing_time())
 
     # Apply Smoothing
+    o = 0
     for specimen in specimens:
-        print("Apply smoothing")
+        o = o+1
+        print("Applying smoothing",o)
         specimen.sav_gol_smooth(181)
 
 
@@ -337,7 +337,7 @@ def plot_with_plotly(specimens):
         
     for specimen in specimens:
         #print(type(specimen))
-        print("/n Specimen Condition type is",specimen.condition_type)
+        print ('\nSpecimen Condition type is',specimen.condition_type)
         if specimen.condition_type == 'AIR':
             color = '#1e64c8'
             linestyle = 'solid'
@@ -414,9 +414,9 @@ specimens_excel_df_R2 = pd.read_excel('InputGraphsR2.xlsx')
 specimens_excel_df_R6 = pd.read_excel('InputGraphsR6.xlsx')
 
 
-print("/n Specimens SRB",specimens_excel_df_SRB)
-print("/n Specimens R2",specimens_excel_df_R2)
-print("/n Specimens R6",specimens_excel_df_R6)
+print("\n Specimens SRB\n",specimens_excel_df_SRB)
+#print("\n Specimens R2",specimens_excel_df_R2)
+#print("\n Specimens R6",specimens_excel_df_R6)
 
 print("Read excel stage finish") # For debugging
 
@@ -429,15 +429,17 @@ print("Reading data stage - process specimens")
 # Function inputs for process_specimens() function
 # Extracting required columns from specimens_excel_df
 specimens_df_SRB = specimens_excel_df_SRB[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
-specimens_df_R2 = specimens_excel_df_R2[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
-specimens_df_R6 = specimens_excel_df_R6[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
+
+#print("\nSRB dataframe\n",specimens_df_SRB) 
+#specimens_df_R2 = specimens_excel_df_R2[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
+#specimens_df_R6 = specimens_excel_df_R6[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
 
 #home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
 
 # Function call for process_specimens() function
 specimens_SRB = process_specimens(specimens_df_SRB,home_dir)
-specimens_R2 = process_specimens(specimens_df_R2,home_dir)
-specimens_R6 = process_specimens(specimens_df_R6,home_dir)
+#specimens_R2 = process_specimens(specimens_df_R2,home_dir)
+#specimens_R6 = process_specimens(specimens_df_R6,home_dir)
 
 print("Reading data stage finish - specimens processed") 
 
@@ -448,9 +450,9 @@ load_col = 'ESH B Force'
 clip_value = 1
 # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
 # Function call for clip_load() function
-clip_load(specimens_SRB,load_col,clip_value)
-clip_load(specimens_R2,load_col,clip_value)
-clip_load(specimens_R6,load_col,clip_value)
+clip_load(specimens_SRB,load_col,clip_value) 
+#clip_load(specimens_R2,load_col,clip_value)
+#clip_load(specimens_R6,load_col,clip_value)
 
 print("Clip load values stage finish") 
 
@@ -460,9 +462,9 @@ print("Extensometer stage start")
 # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
 
 # Function call for zero_extensometers() function
-zero_extensometers(specimens_SRB)
-zero_extensometers(specimens_R2)
-zero_extensometers(specimens_R6)
+zero_extensometers(specimens_SRB) #fine till here
+#zero_extensometers(specimens_R2)
+#zero_extensometers(specimens_R6)
 
 print("Extensometer stage finish") 
 
@@ -478,5 +480,5 @@ Size_axis_y = 22
 
 # Function call for plot_with_plotly() function
 plot_with_plotly(specimens_SRB)
-plot_with_plotly(specimens_R2)
-plot_with_plotly(specimens_R6)
+#plot_with_plotly(specimens_R2)
+#plot_with_plotly(specimens_R6)
