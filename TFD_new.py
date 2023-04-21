@@ -230,6 +230,7 @@ class Specimen:
     def testing_time(self):
         self.test_duration_sec = round(self.clipped_df['Time'].iloc[-1],2)
         self.test_duration_min = round(self.test_duration_sec/60.2)
+        return str(self.test_duration_min)
 
 # Example usage of loess_smooth function
 #specimen1 = Specimen(home_dir, material_type, condition_type, notch_type, specimen_name, extensometer)
