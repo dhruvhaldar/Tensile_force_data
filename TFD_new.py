@@ -415,8 +415,8 @@ print("Reading data stage - process specimens")
 specimens_df_SRB = specimens_excel_df_SRB[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
 
 #print("\nSRB dataframe\n",specimens_df_SRB) 
-#specimens_df_R2 = specimens_excel_df_R2[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
-#specimens_df_R6 = specimens_excel_df_R6[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
+specimens_df_R2 = specimens_excel_df_R2[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
+specimens_df_R6 = specimens_excel_df_R6[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
 
 #home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
 
