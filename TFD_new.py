@@ -306,8 +306,8 @@ def zero_extensometers(specimens):
 
     # Calculate total testing time
     for specimen in specimens:
-        print("Calculate total testing time")
         specimen.testing_time()
+        print("Calculate total testing time", specimen.testing_time())
 
     # Apply Smoothing
     for specimen in specimens:
@@ -336,7 +336,7 @@ def plot_with_plotly(specimens):
     fig = go.Figure()
         
     for specimen in specimens:
-        print(type(specimen))
+        #print(type(specimen))
         print("/n Specimen Condition type is",specimen.condition_type)
         if specimen.condition_type == 'AIR':
             color = '#1e64c8'
