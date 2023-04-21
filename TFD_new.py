@@ -331,8 +331,8 @@ def plot_with_plotly(specimens):
     }
     linestyle_dict = {
         #'AIR': 'solid',
-        'H2_HC1': 'longdash',
-        'H2_HC2': 'dashdot'
+        'A': 'solid',
+        'B': 'longdash'
     }
 
     # Create plotly figure
