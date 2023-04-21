@@ -359,8 +359,13 @@ def plot_with_plotly(specimens):
             font=dict(size=22),
         ),
         xaxis_title='Elongation [mm]',
+        xaxis_title_font=dict(size=22),
         yaxis_title='Tensile force [kN]',
-        xaxis=dict(tickfont=dict(size=22)),
+        yaxis_title_font=dict(size=22),
+        xaxis=dict(
+            tickmode = 'linear',
+            tick0 = 0.5,
+            tickfont=dict(size=22)),
         yaxis=dict(tickfont=dict(size=22)),
         showlegend=True,
         margin=dict(l=0, r=0, t=0, b=0),
@@ -417,8 +422,8 @@ specimens_df_SRB = specimens_excel_df_SRB[['specimen_name', 'material_type', 'no
 
 # Function call for process_specimens() function
 specimens_SRB = process_specimens(specimens_df_SRB,home_dir)
-#specimens_R2 = process_specimens(specimens_df_R2,home_dir)
-#specimens_R6 = process_specimens(specimens_df_R6,home_dir)
+specimens_R2 = process_specimens(specimens_df_R2,home_dir)
+specimens_R6 = process_specimens(specimens_df_R6,home_dir)
 
 print("Reading data stage finish - specimens processed") 
 
