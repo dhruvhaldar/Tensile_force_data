@@ -1,4 +1,4 @@
-# Tensile_force_data using Plotly
+# Tensile force data using Plotly
 1. Images are generated and saved as png in the same folder.
 2. Go through the docstrings to know what to change (mostly trace for changing dash and color).
 3. InputGraphs are in the home folder, change things there directly.
