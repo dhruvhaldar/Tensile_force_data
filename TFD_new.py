@@ -435,8 +435,8 @@ clip_value = 1
 # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
 # Function call for clip_load() function
 clip_load(specimens_SRB,load_col,clip_value) 
-#clip_load(specimens_R2,load_col,clip_value)
-#clip_load(specimens_R6,load_col,clip_value)
+clip_load(specimens_R2,load_col,clip_value)
+clip_load(specimens_R6,load_col,clip_value)
 
 print("Clip load values stage finish") 
 
