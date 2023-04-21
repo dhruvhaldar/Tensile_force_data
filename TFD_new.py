@@ -324,13 +324,13 @@ def zero_extensometers(specimens):
 def plot_with_plotly(specimens):
     # Define colors and linestyle of curves depending on condition type
     color_dict = {
-        'AIR': 'red',
-        'H2_HC1': 'royalblue',
+        'AIR': 'royalblue',
+        'H2_HC1': '#d81e5b',
         'H2_HC2': '#d81e56'
     }
     linestyle_dict = {
         'AIR': 'solid',
-        'H2_HC1': 'dash',
+        'H2_HC1': 'longdash',
         'H2_HC2': 'dashdot'
     }
 
