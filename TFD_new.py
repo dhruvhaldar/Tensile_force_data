@@ -403,9 +403,10 @@ print("Input filename stage")
 # Input data: Specify the file path and sheet name for the Excel file containing the data
 # CHANGE
 #home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
-home_dir = r"C:/Users/Dhruv/Documents/Jubica_work/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+#home_dir = r"C:/Users/Dhruv/Documents/Jubica_work/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+home_dir = r"shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
 
-excel_file_name = 'Input_Graphs.xlsx'
+#excel_file_name = 'Input_Graphs.xlsx'
 #excel_sheet_name = '20230322'
 #print("Home directory is selected as",home_dir)
 print("Input filename stage finish") 
