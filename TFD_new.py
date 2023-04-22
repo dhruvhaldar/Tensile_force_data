@@ -401,10 +401,17 @@ def plot_with_plotly(specimens):
 
 print("Input filename stage") 
 # Input data: Specify the file path and sheet name for the Excel file containing the data
-# CHANGE
-#home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+# Get the current working directory
+pwd = os.getcwd()
+
+home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
 #home_dir = r"C:/Users/Dhruv/Documents/Jubica_work/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
-home_dir = r"shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+#home_dir = r"shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+
+# Add the pwd to the home directory path
+#path = os.path.join(pwd, home_dir)
+# New home_dir variable
+#home_dir = path
 
 #excel_file_name = 'Input_Graphs.xlsx'
 #excel_sheet_name = '20230322'
