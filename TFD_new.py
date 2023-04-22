@@ -336,12 +336,16 @@ def plot_with_plotly(specimens):
     linestyle_dict = {
         'LyA1': 'solid',
         'LyA5': 'solid',
-        'HyA1': 'dot',
-        'HyA5': 'dot',
+        'HyA1': 'dashdot',
+        'HyA5': 'dashdot',
         'LyARR1': 'solid',
         'LyARR4': 'solid',
-        'HyARR1': 'dot',
-        'HyARR5': 'dot'
+        'HyARR1': 'dashdot',
+        'HyARR5': 'dashdot',
+        'LyARR10': 'solid',
+        'LyARR15': 'solid',
+        'HyARR10': 'dashdot',
+        'HyARR13': 'dashdot'
     }
 
     # Create plotly figure
@@ -361,11 +365,13 @@ def plot_with_plotly(specimens):
         color = color_dict.get(specimen.condition_type, 'cyan')
         linestyle = linestyle_dict.get(specimen.specimen_name, 'dash')
        
+       #Legend
         fig.add_trace(go.Scatter(
             x=specimen.clipped_df[specimen.extensometer_plot],
             y=specimen.clipped_df['ESH B Force'],
             mode='lines',
-            line=dict(color=color, dash=linestyle),
+            line=dict(color=color, dash=linestyle,
+                width=2),
             name=f"{specimen.material_type}_{specimen.condition_type}_{specimen.notch_type}_{specimen.specimen_name}_{specimen.test_duration_min} min"
         ))
 
@@ -500,7 +506,7 @@ Size_axis_y = 22
 # Function call for plot_with_plotly() function
 plot_with_plotly(specimens_SRB)
 plot_with_plotly(specimens_R2)
-#plot_with_plotly(specimens_R6)
+plot_with_plotly(specimens_R6)
 
 # TODO fix legend
 # TODO fix color and dots
