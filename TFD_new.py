@@ -404,8 +404,8 @@ print("Input filename stage")
 # Get the current working directory
 pwd = os.getcwd()
 
-home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
-#home_dir = r"C:/Users/Dhruv/Documents/Jubica_work/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+#home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+home_dir = r"C:/Users/Dhruv/Documents/Jubica_work/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
 #home_dir = r"shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
 
 # Add the pwd to the home directory path
