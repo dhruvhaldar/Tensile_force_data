@@ -374,7 +374,7 @@ def plot_with_plotly(specimens):
                 width=2),
             name=f"{specimen.material_type}_{specimen.condition_type}_{specimen.notch_type}_{specimen.specimen_name}_{specimen.test_duration_min} min"
         ))
-
+    
     # Update layout
     fig.update_layout(
         legend=dict(
@@ -385,10 +385,10 @@ def plot_with_plotly(specimens):
             bgcolor='white',
             font=dict(size=20),
         ),
-        xaxis_title='Elongation [mm]',
-        xaxis_title_font=dict(size=22),
-        yaxis_title='Tensile force [kN]',
-        yaxis_title_font=dict(size=22),
+        xaxis_title='<b>Elongation [mm]</b>',
+        xaxis_title_font=dict(size=22),   
+        yaxis_title='<b>Tensile force [kN]</b>'',
+        yaxis_title_font=dict(size=22),   
         xaxis=dict(
             tickmode = 'linear',
             tick0 = 0.5,
