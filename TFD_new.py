@@ -337,7 +337,11 @@ def plot_with_plotly(specimens):
         'LyA1': 'solid',
         'LyA5': 'solid',
         'HyA1': 'dot',
-        'HyA5': 'dot'
+        'HyA5': 'dot',
+        'LyARR1': 'solid',
+        'LyARR4': 'solid',
+        'HyARR1': 'dot',
+        'HyARR5': 'dot'
     }
 
     # Create plotly figure
@@ -495,7 +499,7 @@ Size_axis_y = 22
 
 # Function call for plot_with_plotly() function
 plot_with_plotly(specimens_SRB)
-#plot_with_plotly(specimens_R2)
+plot_with_plotly(specimens_R2)
 #plot_with_plotly(specimens_R6)
 
 # TODO fix legend
