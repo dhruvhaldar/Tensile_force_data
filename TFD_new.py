@@ -330,13 +330,14 @@ def plot_with_plotly(specimens):
     # Define colors and linestyle of curves depending on condition type
     color_dict = {
         'AIR': 'royalblue',
-        'H2_HC1': '#d81e5b',
-        'H2_HC2': '#d81e56'
+        'H2_HC1': '#d81e5b'
+        #'H2_HC2': '#d81e56'
     }
     linestyle_dict = {
-        #'AIR': 'solid',
-        'A': 'solid',
-        'B': 'longdash'
+        'LyA1': 'solid',
+        'LyA5': 'solid',
+        'HyA1': 'dot',
+        'HyA5': 'dot'
     }
 
     # Create plotly figure
@@ -353,8 +354,8 @@ def plot_with_plotly(specimens):
         # This sets the line color and dash style of the trace using the color and linestyle variables, respectively.  
         # The resulting code creates a figure with a separate trace for each specimen in the specimens list, where each trace represents a line plot of the #'ESH B Force' column of the clipped_df DataFrame against the extensometer_plot column. The color and dash style of each line are determined by the # color_dict and linestyle_dict dictionaries based on the condition_type attribute of each specimen.
         """
-        color = color_dict.get(specimen.condition_type, 'blue')
-        linestyle = linestyle_dict.get(specimen.condition_type, 'solid')
+        color = color_dict.get(specimen.condition_type, 'cyan')
+        linestyle = linestyle_dict.get(specimen.specimen_name, 'dash')
        
         fig.add_trace(go.Scatter(
             x=specimen.clipped_df[specimen.extensometer_plot],
@@ -494,8 +495,8 @@ Size_axis_y = 22
 
 # Function call for plot_with_plotly() function
 plot_with_plotly(specimens_SRB)
-plot_with_plotly(specimens_R2)
-plot_with_plotly(specimens_R6)
+#plot_with_plotly(specimens_R2)
+#plot_with_plotly(specimens_R6)
 
 # TODO fix legend
 # TODO fix color and dots
