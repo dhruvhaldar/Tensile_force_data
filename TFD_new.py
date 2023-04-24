@@ -336,16 +336,16 @@ def plot_with_plotly(specimens):
     linestyle_dict = {
         'LyA1': 'solid',
         'LyA5': 'solid',
-        'HyA1': 'dashdot',
-        'HyA5': 'dashdot',
+        'HyA1': 'dash',
+        'HyA5': 'dash',
         'LyARR1': 'solid',
         'LyARR4': 'solid',
-        'HyARR1': 'dashdot',
-        'HyARR5': 'dashdot',
+        'HyARR1': 'dash',
+        'HyARR5': 'dash',
         'LyARR10': 'solid',
         'LyARR15': 'solid',
-        'HyARR10': 'dashdot',
-        'HyARR13': 'dashdot'
+        'HyARR10': 'dash',
+        'HyARR13': 'dash'
     }
 
     # Create plotly figure
