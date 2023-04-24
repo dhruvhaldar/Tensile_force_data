@@ -386,9 +386,9 @@ def plot_with_plotly(specimens):
             font=dict(size=20),
         ),
         xaxis_title='<b>Elongation [mm]</b>',
-        xaxis_title_font=dict(size=22),   
+        xaxis_title_font=dict(size=28),   
         yaxis_title='<b>Tensile force [kN]</b>',
-        yaxis_title_font=dict(size=22),   
+        yaxis_title_font=dict(size=28),   
         xaxis=dict(
             tickmode = 'linear',
             tick0 = 0.5,
@@ -396,8 +396,8 @@ def plot_with_plotly(specimens):
         yaxis=dict(tickfont=dict(size=22)),
         showlegend=True,
         margin=dict(l=0, r=0, t=0, b=0),
-        paper_bgcolor='white',
-        plot_bgcolor='white',
+        #paper_bgcolor='white',
+        #plot_bgcolor='white',
     )
     
     # Generate a unique filename based on the current date and time
@@ -405,7 +405,7 @@ def plot_with_plotly(specimens):
     filename = f"{now}.png"
 
     # Save figure as png image with the unique filename
-    pio.write_image(fig,filename,scale=6,width=1080,height=1080) 
+    pio.write_image(fig,filename,scale=6) 
     return fig.show()
 #############################################################################################################################################
 # INPUT PARAMETERS TO BE GIVEN FOR VARIOUS FUNCTIONS
