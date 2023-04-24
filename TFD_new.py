@@ -405,7 +405,7 @@ def plot_with_plotly(specimens):
     filename = f"{now}.png"
 
     # Save figure as png image with the unique filename
-    fig.write_image(filename) 
+    pio.write_image(fig,filename,scale=6,width=1080,height=1080) 
     return fig.show()
 #############################################################################################################################################
 # INPUT PARAMETERS TO BE GIVEN FOR VARIOUS FUNCTIONS
