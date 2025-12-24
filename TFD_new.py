@@ -94,10 +94,11 @@ class Specimen:
         Clipped dataframe.
         '''
         index_flag = int(0.5 * len(self.data_df))
-        top_df = self.data_df[(self.data_df.index <= index_flag)]
-        check_df = self.data_df[(self.data_df.index > index_flag) & (self.data_df.index <= int(len(self.data_df)))]
-        eval_df = check_df[check_df[load_col] >= clip_value]
-        self.clipped_df = pd.concat([top_df, eval_df])
+        # Optimization: Use single boolean mask instead of multiple dataframes and concatenation
+        # Logic: Keep if (index <= half) OR (load >= clip_value)
+        # Note: Implicitly if index > half, we only keep if load >= clip_value.
+        mask = (self.data_df.index <= index_flag) | (self.data_df[load_col] >= clip_value)
+        self.clipped_df = self.data_df[mask].copy()
         print('Load clip executed for ' + self.specimen_name)
         
     def loess_smooth(self, frac=0.05):
