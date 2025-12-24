@@ -69,7 +69,8 @@ class Specimen:
         print("Home dir", home_dir)
         print("Condition type", condition_type)
         print("Specimen name", specimen_name)
-        self.mts_data_file = f"{home_dir}/{condition_type}/MTS/{specimen_name}/specimen.dat"
+        # Fix for case-sensitive filesystems (Linux) vs Windows
+        self.mts_data_file = f"{home_dir}/{condition_type}/MTS/{specimen_name.upper()}/specimen.dat"
         
     def read_csv(self):
         '''
@@ -77,7 +78,10 @@ class Specimen:
         -------
         Creates a self Dataframe containing raw data
         '''
-        self.data_df = pd.read_csv(self.mts_data_file, sep='\t', skiprows=[0,1,2,4])
+        # Optimization: Only read necessary columns to save memory and time
+        # We need 'Time', 'ESH B Force', and the specific extensometer column
+        usecols = ['Time', 'ESH B Force', self.extensometer_plot]
+        self.data_df = pd.read_csv(self.mts_data_file, sep='\t', skiprows=[0,1,2,4], usecols=usecols)
         print(self.specimen_name + ' reading done')
         
     def load_clip(self, load_col='ESH B Force', clip_value=1):
@@ -408,106 +412,108 @@ def plot_with_plotly(specimens):
     # Save figure as png image with the unique filename
     pio.write_image(fig,filename,scale=6) 
     return fig.show()
-#############################################################################################################################################
-# INPUT PARAMETERS TO BE GIVEN FOR VARIOUS FUNCTIONS
 
-print("Input filename stage") 
-# Input data: Specify the file path and sheet name for the Excel file containing the data
-# Get the current working directory
-pwd = os.getcwd()
+if __name__ == "__main__":
+    #############################################################################################################################################
+    # INPUT PARAMETERS TO BE GIVEN FOR VARIOUS FUNCTIONS
 
-#home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
-home_dir = r"C:/Users/Dhruv/Documents/Jubica_work/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
-#home_dir = r"shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+    print("Input filename stage")
+    # Input data: Specify the file path and sheet name for the Excel file containing the data
+    # Get the current working directory
+    pwd = os.getcwd()
 
-# Add the pwd to the home directory path
-#path = os.path.join(pwd, home_dir)
-# New home_dir variable
-#home_dir = path
+    #home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+    home_dir = r"shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+    #home_dir = r"shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
 
-#excel_file_name = 'Input_Graphs.xlsx'
-#excel_sheet_name = '20230322'
-#print("Home directory is selected as",home_dir)
-print("Input filename stage finish") 
+    # Add the pwd to the home directory path
+    #path = os.path.join(pwd, home_dir)
+    # New home_dir variable
+    #home_dir = path
 
-
-print("Read excel stage")
-# Read the Excel file into a DataFrame
-# CHANGE
-#specimens_excel_df = pd.read_excel(home_dir + '\\' + excel_file_name, sheet_name=excel_sheet_name)
-specimens_excel_df_SRB = pd.read_excel('InputGraphsSRB.xlsx')
-specimens_excel_df_R2 = pd.read_excel('InputGraphsR2.xlsx')
-specimens_excel_df_R6 = pd.read_excel('InputGraphsR6.xlsx')
+    #excel_file_name = 'Input_Graphs.xlsx'
+    #excel_sheet_name = '20230322'
+    #print("Home directory is selected as",home_dir)
+    print("Input filename stage finish")
 
 
-print("\n Specimens SRB\n",specimens_excel_df_SRB)
-#print("\n Specimens R2",specimens_excel_df_R2)
-#print("\n Specimens R6",specimens_excel_df_R6)
-
-print("Read excel stage finish") # For debugging
-
-
-# Set up graph layout: Specify titles and font sizes for the graph
-Title_x = 'Elongation [mm]'
-Title_y = 'Tensile force [kN]'
-
-print("Reading data stage - process specimens") 
-# Function inputs for process_specimens() function
-# Extracting required columns from specimens_excel_df
-specimens_df_SRB = specimens_excel_df_SRB[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
-
-#print("\nSRB dataframe\n",specimens_df_SRB) 
-specimens_df_R2 = specimens_excel_df_R2[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
-specimens_df_R6 = specimens_excel_df_R6[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
-
-#home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
-
-# Function call for process_specimens() function
-specimens_SRB = process_specimens(specimens_df_SRB,home_dir)
-specimens_R2 = process_specimens(specimens_df_R2,home_dir)
-specimens_R6 = process_specimens(specimens_df_R6,home_dir)
-
-print("Reading data stage finish - specimens processed") 
-
-print("Clip load values stage start") 
-# Function inputs for clip_load() function
-# Clip data to remove data at the end of the curve
-load_col = 'ESH B Force'
-clip_value = 1
-# specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
-# Function call for clip_load() function
-clip_load(specimens_SRB,load_col,clip_value) 
-clip_load(specimens_R2,load_col,clip_value)
-clip_load(specimens_R6,load_col,clip_value)
-
-print("Clip load values stage finish") 
+    print("Read excel stage")
+    # Read the Excel file into a DataFrame
+    # CHANGE
+    #specimens_excel_df = pd.read_excel(home_dir + '\\' + excel_file_name, sheet_name=excel_sheet_name)
+    specimens_excel_df_SRB = pd.read_excel('InputGraphsSRB.xlsx')
+    specimens_excel_df_R2 = pd.read_excel('InputGraphsR2.xlsx')
+    specimens_excel_df_R6 = pd.read_excel('InputGraphsR6.xlsx')
 
 
-print("Extensometer stage start") 
-# Function inputs for zero_extensometers() function
-# specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
+    print("\n Specimens SRB\n",specimens_excel_df_SRB)
+    #print("\n Specimens R2",specimens_excel_df_R2)
+    #print("\n Specimens R6",specimens_excel_df_R6)
 
-# Function call for zero_extensometers() function
-zero_extensometers(specimens_SRB) 
-zero_extensometers(specimens_R2)
-zero_extensometers(specimens_R6)
-
-print("Extensometer stage finish") 
+    print("Read excel stage finish") # For debugging
 
 
-print("Plot stage")
-# Function inputs for plot_with_plotly() function
-# specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
-Size_title = 32
-Size_title_x = 28
-Size_title_y = 28
-Size_axis_x = 22
-Size_axis_y = 22
+    # Set up graph layout: Specify titles and font sizes for the graph
+    Title_x = 'Elongation [mm]'
+    Title_y = 'Tensile force [kN]'
 
-# Function call for plot_with_plotly() function
-plot_with_plotly(specimens_SRB)
-plot_with_plotly(specimens_R2)
-plot_with_plotly(specimens_R6)
+    print("Reading data stage - process specimens")
+    # Function inputs for process_specimens() function
+    # Extracting required columns from specimens_excel_df
+    specimens_df_SRB = specimens_excel_df_SRB[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
 
-# TODO fix legend
-# TODO fix color and dots
+    #print("\nSRB dataframe\n",specimens_df_SRB)
+    specimens_df_R2 = specimens_excel_df_R2[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
+    specimens_df_R6 = specimens_excel_df_R6[['specimen_name', 'material_type', 'notch_type', 'condition_type', 'extensometer_plot']]
+
+    #home_dir = r"S:/shares/flx_lsms_hydrogen/EXPERIMENTAL_DATA/LABO_SOETE/WP1_TENSILE"
+
+    # Function call for process_specimens() function
+    specimens_SRB = process_specimens(specimens_df_SRB,home_dir)
+    specimens_R2 = process_specimens(specimens_df_R2,home_dir)
+    specimens_R6 = process_specimens(specimens_df_R6,home_dir)
+
+    print("Reading data stage finish - specimens processed")
+
+    print("Clip load values stage start")
+    # Function inputs for clip_load() function
+    # Clip data to remove data at the end of the curve
+    load_col = 'ESH B Force'
+    clip_value = 1
+    # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
+    # Function call for clip_load() function
+    clip_load(specimens_SRB,load_col,clip_value)
+    clip_load(specimens_R2,load_col,clip_value)
+    clip_load(specimens_R6,load_col,clip_value)
+
+    print("Clip load values stage finish")
+
+
+    print("Extensometer stage start")
+    # Function inputs for zero_extensometers() function
+    # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
+
+    # Function call for zero_extensometers() function
+    zero_extensometers(specimens_SRB)
+    zero_extensometers(specimens_R2)
+    zero_extensometers(specimens_R6)
+
+    print("Extensometer stage finish")
+
+
+    print("Plot stage")
+    # Function inputs for plot_with_plotly() function
+    # specimens in Line 447 -> value is process_specimens(specimens_df,home_dir)
+    Size_title = 32
+    Size_title_x = 28
+    Size_title_y = 28
+    Size_axis_x = 22
+    Size_axis_y = 22
+
+    # Function call for plot_with_plotly() function
+    plot_with_plotly(specimens_SRB)
+    plot_with_plotly(specimens_R2)
+    plot_with_plotly(specimens_R6)
+
+    # TODO fix legend
+    # TODO fix color and dots
